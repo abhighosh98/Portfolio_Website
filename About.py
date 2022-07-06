@@ -31,6 +31,8 @@ st.sidebar.download_button(label = "Download Resume",
                     data = PDFbyte,
                     file_name = "Abhishek Ghoshal Resume.pdf",
                     mime = 'application/octet-stream')
+st.sidebar.markdown("#")
+st.sidebar.markdown("#")
 
 # Main Text
 st.markdown('<p class="biggest-font"><b>➲  Where am I from?</b></p>', unsafe_allow_html=True)
