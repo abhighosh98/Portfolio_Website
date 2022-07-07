@@ -43,17 +43,41 @@ st.markdown("## Master of Science in Applied Data Science")
 st.markdown('#### *Important Coursework*')
 st.markdown('*Foundations of Data Management, Machine Learning for Data Science, Predictive Analytics*')
 st.image(Image.open('Images/personal 3.jpeg'), width = 640)
-usc = """text"""
+usc = """I came to LA to pursue my graduate degree in the Spring 2022 semester. 
+For this semester, I decided to prioritize coursework along with being comfortable 
+with the student life in another country. Getting to know my peers and LA itself was 
+a great start to my Masters program. 
+
+ During my first semester I took Foundations of Data Management and Machine 
+ Learning for Data Science as my courses. Both of these courses helped me learn
+  new technologies like Firestore and PySpark and strenghten my basics in 
+  SQL and Machine Learning. It was during this semester that I worked on a 
+  couple projects; AI Stylist and 5DayMLP. More details about these are listed 
+  in the projects section. 
+  
+  In Summer 2022 I took up another course; Predictive Analytics. Along with this 
+  I also started searching for an internship for Summer 2023 and prepping for the 
+  interviews. """
 st.write(usc)
 st.markdown('#')
 st.markdown('#')
 
 st.markdown('<p class="biggest-font"><b>➲  Xavier Institute of Engineering</b></p>', unsafe_allow_html=True)
-st.markdown("## Bachelor of Engineering in Computer Engineering")
+st.markdown('## Bachelor of Engineering in Computer Engineering')
 st.markdown('#### *Important Coursework*')
 st.markdown('*Structured Programming Approach, Data Structures, Analysis of Algorithms, Computer Organization and Architecture, Computer Graphics, Operating System, Advanced Algorithm, Microprocessor, Database Management System, Computer Network, Software Engineering, Data Warehousing & Mining, Machine Leaning, Digital Signal & Image Processing, Artificial Intelligence & Soft Computing, Advanced System Security & Digital Forensics, Natural Language Processing*')
-st.image(Image.open('Images/XIE Council.jpeg'), width = 640)
-xie = """text"""
+xie = """It was during the second half of my undergraduate degree that I started 
+finding interest in the field of Machine Learning. I came across through coursework, 
+however I learned about it extensively from online learning platforms. 
+I worked on multiple projects during this time which were based on ML. The most prominent one 
+was the AI Pet Robot. I also participated in multiple hackathons and project exhibitions showcasing 
+my projects. More details about these are given in the Projects and Achievements sections. 
+
+By the end of my undergraduate degree I was adept in skills required by the tech industry such as Python, 
+deep learning, machine learning, SQL, image processing, tensorflow, etc. I joined Quantiphi Analytics as
+ a Machine Learning Engineer where I worked on a varied set of projects with some of the biggest 
+ companies in the world as clients. 
+"""
 st.write(xie)
 st.markdown('#')
 st.markdown('#')
