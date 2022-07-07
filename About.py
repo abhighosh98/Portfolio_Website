@@ -33,6 +33,8 @@ st.sidebar.download_button(label = "Download Resume",
                     mime = 'application/octet-stream')
 st.sidebar.markdown("#")
 st.sidebar.markdown("#")
+st.sidebar.markdown("#")
+st.sidebar.markdown("#")
 
 # Main Text
 st.markdown('<p class="biggest-font"><b>➲  Where am I from?</b></p>', unsafe_allow_html=True)
@@ -47,12 +49,12 @@ st.markdown('#')
 
 
 st.markdown('<p class="biggest-font"><b>➲  What am I doing now?</b></p>', unsafe_allow_html=True)
-what_am_i_doing_now = """Currently I am pursuing a 
+what_am_i_doing_now = """I am pursuing a 
 [Master of Science in Applied Data Science](https://datascience.usc.edu/academics/master-of-science-in-applied-data-science/)
 degree from [University of Southern California](https://viterbischool.usc.edu/).
 For the Fall 2022 semester, along with finishing my courses I will also be 
 one of the course graders for DSCI 551: Foundations of Data Management. I am 
-presently searching for Summer 2023 Internships.
+currently searching for Summer 2023 Internships.
 """
 st.write(what_am_i_doing_now)
 st.markdown('#')
