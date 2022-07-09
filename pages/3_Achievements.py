@@ -41,7 +41,7 @@ st.markdown('#')
 
 st.markdown('<p class="biggest-font"><b>➲  1st Place in Project Exhibition</b></p>', unsafe_allow_html=True)
 with st.container():
-    st.image(Image.open('Images/Spandan Project Exhibition Prize 2020.jpeg'), width = 640)
+    st.image(Image.open('Images/Spandan Project Exhibition Prize.jpeg'), width = 640)
 spandan = """"""
 st.write(spandan)
 st.markdown('#')
