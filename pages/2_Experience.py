@@ -39,7 +39,13 @@ During this time I was also allocated to another project where I mentored a
 colleague on tensorflow and GCP related tasks. 
 
 During my final project at Quantiphi, I worked on an production grade project for 
-engine defect detection slated to be deployed on an assembly line. """
+engine defect detection slated to be deployed on an assembly line. The ML team
+consisted of me and one more colleague. We had frequent calls with the client's 
+tech team regarding our approach for the problem and our results. We were given an 
+in-depth virtual tour of the assembly line, stations and where our model 
+will be deployed. Our model took their accuracy from below 10% to 
+78%. Improving their model accuracy solved multiple problems for them. 
+"""
 
 st.write(quantiphi)
 with open("Files/Quantiphi Recommendation Letter.pdf", "rb") as pdf_file:
@@ -54,6 +60,7 @@ st.write("Tensorflow, CNN, OpenCV, Model Interpretability, SHAPley, Python, Pand
 
 st.markdown("### Challenges")
 st.write("The team and I faced some minor issues during the first POC project. The client was not able to deliver the data on time due to security issues. We had to generate gigabytes of logs on our computers. Throughout the project we kept learning about new security concepts such as MITRE framework, ransomware attack vectors and sandboxes for detonating ransomware payloads. Once we had our own data, we had to redo parts of the EDA to ensure that the previously found insights still hold for this newly generated data. There were also continuous changes to the deliverables and the client's requirements which led to the team collborating during crunch times. ")
+st.write("Since the ML team was small for the second project, more responsibilities were given to me. My colleague and I had multiple sessions to decide an approach and run experiments even before the project kick off date. This involved significant research to be done in this phase. The main challenge in this project was that the margin of error was very small since one engine prediction was actually made up for several smaller part level predictions. Errors in prediction at the part level would result in the errors propogating for the engine level statistics. ")
 st.markdown('#')
 st.markdown('#')
 
