@@ -18,6 +18,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Main Text
+st.markdown('<p class="biggest-font"><b>➲  University of Southern California, Los Angeles</b></p>', unsafe_allow_html=True)
+st.title("Position: Course Producer for DSCI 551: Foundations of Data Mangement")
+usc = """As a Course Producer my responsibilities included grading assignments, projects and lab work for students in the Fall 2022 offering of this class. Apart from this I also held weekly office hours to help students in any and all aspects regarding the class. """
+st.write(usc)
+st.markdown("### Technologies and Concepts Used")
+st.write("AWS, MongoDB, SQL, Firestore, ")
+
 st.markdown('<p class="biggest-font"><b>➲  Quantiphi Analytics, Mumbai</b></p>', unsafe_allow_html=True)
 st.title("Position: Machine Learning Engineer")
 quantiphi = """[Quantiphi](https://quantiphi.com/) is a service based company with 
